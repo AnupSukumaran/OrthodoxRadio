@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A0A20032050F30C00197E74 /* TextFieldEffects.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A0A20042050F30C00197E74 /* TextFieldEffects.framework */; };
+		5A0A20062050F3B200197E74 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0A20052050F3B200197E74 /* MessageViewController.swift */; };
+		5A1897E9204FE39400D38708 /* ButtonExtender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1897E8204FE39400D38708 /* ButtonExtender.swift */; };
+		5A18B0C6204A7A8D00FB8129 /* MTCircularSlider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A18B0C7204A7A8D00FB8129 /* MTCircularSlider.framework */; };
+		5A1BA2152047BBA9007D5BC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1BA2142047BBA9007D5BC2 /* AppDelegate.swift */; };
+		5A1BA21A2047BBA9007D5BC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A1BA2182047BBA9007D5BC2 /* Main.storyboard */; };
+		5A1BA21C2047BBA9007D5BC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A1BA21B2047BBA9007D5BC2 /* Assets.xcassets */; };
+		5A1BA21F2047BBA9007D5BC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A1BA21D2047BBA9007D5BC2 /* LaunchScreen.storyboard */; };
+		5A1BA2272047C671007D5BC2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1BA2262047C671007D5BC2 /* MainViewController.swift */; };
+		5A1BF887204E58D10033C4DC /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1BF886204E58D10033C4DC /* ContainerViewController.swift */; };
+		5A1BF888204E58E60033C4DC /* SidebarOverlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A1BF889204E58E60033C4DC /* SidebarOverlay.framework */; };
+		5A1BF88B204E5AFF0033C4DC /* SidePanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1BF88A204E5AFF0033C4DC /* SidePanelViewController.swift */; };
+		5A1CFF252049778B0044A483 /* HolyRadio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1CFF242049778B0044A483 /* HolyRadio.swift */; };
+		5A20012E204EE9A000F1479E /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A20012D204EE9A000F1479E /* MenuTableViewController.swift */; };
+		5A2BD48420511EF20070D418 /* SwiftValidator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A2BD48520511EF20070D418 /* SwiftValidator.framework */; };
+		5A2CBD47205A39CC00ED1917 /* NVActivityIndicatorView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A2CBD48205A39CC00ED1917 /* NVActivityIndicatorView.framework */; };
+		5A2CBD4A205A4E4300ED1917 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2CBD49205A4E4300ED1917 /* Reachability.swift */; };
+		5A59606E2051569D009BE650 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A59606D2051569D009BE650 /* AboutUsViewController.swift */; };
+		5A5960702051587F009BE650 /* ProgrammeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A59606F2051587F009BE650 /* ProgrammeViewController.swift */; };
+		5A59607220515C44009BE650 /* Questrial-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5A59607120515C22009BE650 /* Questrial-Regular.otf */; };
+		5A653FFA20524B7D00696577 /* AnimationFrames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A653FF920524B7D00696577 /* AnimationFrames.swift */; };
+		770AA43D1FEF5ECF22AD138D /* Pods_Orthodox_Radio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8817369F5090245C254F6A38 /* Pods_Orthodox_Radio.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5A0A20042050F30C00197E74 /* TextFieldEffects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TextFieldEffects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A0A20052050F3B200197E74 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		5A1897E8204FE39400D38708 /* ButtonExtender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonExtender.swift; sourceTree = "<group>"; };
+		5A18B0C7204A7A8D00FB8129 /* MTCircularSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MTCircularSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A1BA2112047BBA9007D5BC2 /* Orthodox Radio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Orthodox Radio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A1BA2142047BBA9007D5BC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5A1BA2192047BBA9007D5BC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A1BA21B2047BBA9007D5BC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A1BA21E2047BBA9007D5BC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A1BA2202047BBA9007D5BC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A1BA2262047C671007D5BC2 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		5A1BF886204E58D10033C4DC /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		5A1BF889204E58E60033C4DC /* SidebarOverlay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SidebarOverlay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A1BF88A204E5AFF0033C4DC /* SidePanelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidePanelViewController.swift; sourceTree = "<group>"; };
+		5A1CFF242049778B0044A483 /* HolyRadio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolyRadio.swift; sourceTree = "<group>"; };
+		5A20012D204EE9A000F1479E /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		5A2BD48520511EF20070D418 /* SwiftValidator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftValidator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A2CBD48205A39CC00ED1917 /* NVActivityIndicatorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NVActivityIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A2CBD49205A4E4300ED1917 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		5A59606D2051569D009BE650 /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
+		5A59606F2051587F009BE650 /* ProgrammeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammeViewController.swift; sourceTree = "<group>"; };
+		5A59607120515C22009BE650 /* Questrial-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Questrial-Regular.otf"; sourceTree = "<group>"; };
+		5A653FF920524B7D00696577 /* AnimationFrames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationFrames.swift; sourceTree = "<group>"; };
+		8817369F5090245C254F6A38 /* Pods_Orthodox_Radio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Orthodox_Radio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3F51E6B0933D72B77B44AC7 /* Pods-Orthodox Radio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Orthodox Radio.release.xcconfig"; path = "Pods/Target Support Files/Pods-Orthodox Radio/Pods-Orthodox Radio.release.xcconfig"; sourceTree = "<group>"; };
+		E972545B1FF49343CCFF1EDA /* Pods-Orthodox Radio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Orthodox Radio.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Orthodox Radio/Pods-Orthodox Radio.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A1BA20E2047BBA9007D5BC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A2CBD47205A39CC00ED1917 /* NVActivityIndicatorView.framework in Frameworks */,
+				5A2BD48420511EF20070D418 /* SwiftValidator.framework in Frameworks */,
+				5A0A20032050F30C00197E74 /* TextFieldEffects.framework in Frameworks */,
+				5A1BF888204E58E60033C4DC /* SidebarOverlay.framework in Frameworks */,
+				5A18B0C6204A7A8D00FB8129 /* MTCircularSlider.framework in Frameworks */,
+				770AA43D1FEF5ECF22AD138D /* Pods_Orthodox_Radio.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A1BA2082047BBA9007D5BC2 = {
+			isa = PBXGroup;
+			children = (
+				5A59607120515C22009BE650 /* Questrial-Regular.otf */,
+				5A1BA2132047BBA9007D5BC2 /* Orthodox Radio */,
+				5A1BA2122047BBA9007D5BC2 /* Products */,
+				D79F9A1DD58F7AF369619285 /* Pods */,
+				EED058233A6818753F71BC3F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5A1BA2122047BBA9007D5BC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A1BA2112047BBA9007D5BC2 /* Orthodox Radio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A1BA2132047BBA9007D5BC2 /* Orthodox Radio */ = {
+			isa = PBXGroup;
+			children = (
+				5A2CBD49205A4E4300ED1917 /* Reachability.swift */,
+				5A1897E8204FE39400D38708 /* ButtonExtender.swift */,
+				5A1BA2142047BBA9007D5BC2 /* AppDelegate.swift */,
+				5A1BF886204E58D10033C4DC /* ContainerViewController.swift */,
+				5A1CFF242049778B0044A483 /* HolyRadio.swift */,
+				5A1BA2262047C671007D5BC2 /* MainViewController.swift */,
+				5A1BA2182047BBA9007D5BC2 /* Main.storyboard */,
+				5A1BA21B2047BBA9007D5BC2 /* Assets.xcassets */,
+				5A1BA21D2047BBA9007D5BC2 /* LaunchScreen.storyboard */,
+				5A1BA2202047BBA9007D5BC2 /* Info.plist */,
+				5A1BF88A204E5AFF0033C4DC /* SidePanelViewController.swift */,
+				5A20012D204EE9A000F1479E /* MenuTableViewController.swift */,
+				5A0A20052050F3B200197E74 /* MessageViewController.swift */,
+				5A59606D2051569D009BE650 /* AboutUsViewController.swift */,
+				5A59606F2051587F009BE650 /* ProgrammeViewController.swift */,
+				5A653FF920524B7D00696577 /* AnimationFrames.swift */,
+			);
+			path = "Orthodox Radio";
+			sourceTree = "<group>";
+		};
+		D79F9A1DD58F7AF369619285 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E972545B1FF49343CCFF1EDA /* Pods-Orthodox Radio.debug.xcconfig */,
+				C3F51E6B0933D72B77B44AC7 /* Pods-Orthodox Radio.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EED058233A6818753F71BC3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A2CBD48205A39CC00ED1917 /* NVActivityIndicatorView.framework */,
+				5A2BD48520511EF20070D418 /* SwiftValidator.framework */,
+				5A0A20042050F30C00197E74 /* TextFieldEffects.framework */,
+				5A1BF889204E58E60033C4DC /* SidebarOverlay.framework */,
+				5A18B0C7204A7A8D00FB8129 /* MTCircularSlider.framework */,
+				8817369F5090245C254F6A38 /* Pods_Orthodox_Radio.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A1BA2102047BBA9007D5BC2 /* Orthodox Radio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A1BA2232047BBA9007D5BC2 /* Build configuration list for PBXNativeTarget "Orthodox Radio" */;
+			buildPhases = (
+				BD75621A8471AC03765AD700 /* [CP] Check Pods Manifest.lock */,
+				5A1BA20D2047BBA9007D5BC2 /* Sources */,
+				5A1BA20E2047BBA9007D5BC2 /* Frameworks */,
+				5A1BA20F2047BBA9007D5BC2 /* Resources */,
+				6C738CB4D39F7B1C0AD61717 /* [CP] Embed Pods Frameworks */,
+				C3DFD9A68F386F3D38FE7ED2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Orthodox Radio";
+			productName = "Orthodox Radio";
+			productReference = 5A1BA2112047BBA9007D5BC2 /* Orthodox Radio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A1BA2092047BBA9007D5BC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = AssaRadviewTech;
+				TargetAttributes = {
+					5A1BA2102047BBA9007D5BC2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 5A1BA20C2047BBA9007D5BC2 /* Build configuration list for PBXProject "Orthodox Radio" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A1BA2082047BBA9007D5BC2;
+			productRefGroup = 5A1BA2122047BBA9007D5BC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A1BA2102047BBA9007D5BC2 /* Orthodox Radio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A1BA20F2047BBA9007D5BC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A59607220515C44009BE650 /* Questrial-Regular.otf in Resources */,
+				5A1BA21F2047BBA9007D5BC2 /* LaunchScreen.storyboard in Resources */,
+				5A1BA21C2047BBA9007D5BC2 /* Assets.xcassets in Resources */,
+				5A1BA21A2047BBA9007D5BC2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6C738CB4D39F7B1C0AD61717 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Orthodox Radio/Pods-Orthodox Radio-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MTCircularSlider/MTCircularSlider.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/SidebarOverlay/SidebarOverlay.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftValidator/SwiftValidator.framework",
+				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MTCircularSlider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SidebarOverlay.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftValidator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Orthodox Radio/Pods-Orthodox Radio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD75621A8471AC03765AD700 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Orthodox Radio-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3DFD9A68F386F3D38FE7ED2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Orthodox Radio/Pods-Orthodox Radio-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A1BA20D2047BBA9007D5BC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A1BA2272047C671007D5BC2 /* MainViewController.swift in Sources */,
+				5A59606E2051569D009BE650 /* AboutUsViewController.swift in Sources */,
+				5A2CBD4A205A4E4300ED1917 /* Reachability.swift in Sources */,
+				5A653FFA20524B7D00696577 /* AnimationFrames.swift in Sources */,
+				5A1CFF252049778B0044A483 /* HolyRadio.swift in Sources */,
+				5A5960702051587F009BE650 /* ProgrammeViewController.swift in Sources */,
+				5A0A20062050F3B200197E74 /* MessageViewController.swift in Sources */,
+				5A20012E204EE9A000F1479E /* MenuTableViewController.swift in Sources */,
+				5A1BF88B204E5AFF0033C4DC /* SidePanelViewController.swift in Sources */,
+				5A1BF887204E58D10033C4DC /* ContainerViewController.swift in Sources */,
+				5A1BA2152047BBA9007D5BC2 /* AppDelegate.swift in Sources */,
+				5A1897E9204FE39400D38708 /* ButtonExtender.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5A1BA2182047BBA9007D5BC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A1BA2192047BBA9007D5BC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A1BA21D2047BBA9007D5BC2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A1BA21E2047BBA9007D5BC2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A1BA2212047BBA9007D5BC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5A1BA2222047BBA9007D5BC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A1BA2242047BBA9007D5BC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E972545B1FF49343CCFF1EDA /* Pods-Orthodox Radio.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X8GUP93935;
+				INFOPLIST_FILE = "Orthodox Radio/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AssaRadviewTech.Orthodox-Radio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A1BA2252047BBA9007D5BC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3F51E6B0933D72B77B44AC7 /* Pods-Orthodox Radio.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X8GUP93935;
+				INFOPLIST_FILE = "Orthodox Radio/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AssaRadviewTech.Orthodox-Radio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A1BA20C2047BBA9007D5BC2 /* Build configuration list for PBXProject "Orthodox Radio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A1BA2212047BBA9007D5BC2 /* Debug */,
+				5A1BA2222047BBA9007D5BC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A1BA2232047BBA9007D5BC2 /* Build configuration list for PBXNativeTarget "Orthodox Radio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A1BA2242047BBA9007D5BC2 /* Debug */,
+				5A1BA2252047BBA9007D5BC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A1BA2092047BBA9007D5BC2 /* Project object */;
+}
